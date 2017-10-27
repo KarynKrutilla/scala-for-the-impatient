@@ -1,4 +1,6 @@
-package exercises
+package exercises.chapter02
+
+import scala.math.pow
 
 object Chapter02 {
   

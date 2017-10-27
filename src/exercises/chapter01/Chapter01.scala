@@ -1,4 +1,6 @@
-package exercises
+package exercises.chapter01
+
+import scala.BigInt
 
 object Chapter01 {
   def main(args: Array[String]) {
