@@ -11,7 +11,7 @@ object Exercise09 extends App {
         values.count(_ == v), // count of values equal to v
         values.count(_ > v)) // count of values greater than v
   }
-   
+  
   // Test:
   val results = lteqgt(Array(1,2,3,4,5,5,6,7,8,9,10), 5)
   println(results)
