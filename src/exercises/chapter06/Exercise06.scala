@@ -7,6 +7,7 @@ package exercises.chapter06
 object Exercise06 extends App {
   
   object PlayingCards extends Enumeration { 
+    type PlayingCards = Value
     val clubs = Value("\u2663")
     val diamonds = Value("\u2666")
     val hearts = Value("\u2665")
