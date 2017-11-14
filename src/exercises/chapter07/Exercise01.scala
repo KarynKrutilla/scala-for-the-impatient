@@ -21,7 +21,7 @@ package com.horstmann {
 package com {
   package horstmann {
     package impatient {
-      class A(val name: String) {
+      class A {
         println(Horst.test)
       }
     }
@@ -29,7 +29,7 @@ package com {
 }
 
 package com.horstmann.impatient {
-  class B(val name: String) {
+  class B {
 //    println(Horst.test) // won't compile
   }
 }
