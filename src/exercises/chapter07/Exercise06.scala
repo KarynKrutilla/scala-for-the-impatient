@@ -10,11 +10,11 @@ import collection.mutable.{HashMap => ScalaHashMap}
 object Exercise06 extends App {
   
   // Init Java and Scala HashMaps
-  val javamap = new JavaHashMap[String, String]
-  val scalamap = new ScalaHashMap[String, String]
+  val javamap = new JavaHashMap[Int, String]
+  val scalamap = new ScalaHashMap[Int, String]
   
-  javamap.put("0", "value0")
-  javamap.put("1", "value1")
+  javamap.put(0, "value0")
+  javamap.put(1, "value1")
   
   // Copy items from javamap to scalamap
   val iter = javamap.entrySet().iterator()
@@ -24,7 +24,7 @@ object Exercise06 extends App {
   }
   
   // Test
-  assert(scalamap.get("0") == Some("value0"))
-  assert(scalamap.get("1") == Some("value1"))
+  assert(scalamap.get(0) == Some("value0"))
+  assert(scalamap.get(1) == Some("value1"))
   scalamap.foreach(println)
 }

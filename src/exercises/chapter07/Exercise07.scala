@@ -6,11 +6,11 @@ package exercises.chapter07
 object Exercise07 extends App {
   
   // Init Java and Scala HashMaps
-  val javamap = new java.util.HashMap[String, String]
-  val scalamap = new collection.mutable.HashMap[String, String]
+  val javamap = new java.util.HashMap[Int, String]
+  val scalamap = new collection.mutable.HashMap[Int, String]
   
-  javamap.put("0", "value0")
-  javamap.put("1", "value1")
+  javamap.put(0, "value0")
+  javamap.put(1, "value1")
   
   // Copy items from javamap to scalamap
   val iter = javamap.entrySet().iterator()
@@ -20,7 +20,7 @@ object Exercise07 extends App {
   }
   
   // Test
-  assert(scalamap.get("0") == Some("value0"))
-  assert(scalamap.get("1") == Some("value1"))
+  assert(scalamap.get(0) == Some("value0"))
+  assert(scalamap.get(1) == Some("value1"))
   scalamap.foreach(println)
 }
