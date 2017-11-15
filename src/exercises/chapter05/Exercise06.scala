@@ -13,7 +13,7 @@ object Exercise06 extends App {
    }
    def age = privateAge
    def age_= (newValue: Int) {
-     if (newValue > privateAge) privateAge = newValue; // Can�t get younger
+     if (newValue > privateAge) privateAge = newValue; // Can't get younger
    }
   }
 
