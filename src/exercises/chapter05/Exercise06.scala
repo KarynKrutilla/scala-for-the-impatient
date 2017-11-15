@@ -1,7 +1,7 @@
 package exercises.chapter05
 
 /**
- * 6. In the Person class of Section 5.1, “Simple Classes and Parameterless Methods,”
+ * 6. In the Person class of Section 5.1, "Simple Classes and Parameterless Methods,"
  *    on page 51, provide a primary constructor that turns negative ages to 0.
  */
 object Exercise06 extends App {
@@ -13,7 +13,7 @@ object Exercise06 extends App {
    }
    def age = privateAge
    def age_= (newValue: Int) {
-     if (newValue > privateAge) privateAge = newValue; // Can’t get younger
+     if (newValue > privateAge) privateAge = newValue; // Canï¿½t get younger
    }
   }
 

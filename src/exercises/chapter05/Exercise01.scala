@@ -1,8 +1,8 @@
 package exercises.chapter05
 
 /**
- * 1. Improve the Counter class in Section 5.1, “Simple Classes and Parameterless
- *    Methods,” on page 51 so that it doesn’t turn negative at Int.MaxValue.
+ * 1. Improve the Counter class in Section 5.1, "Simple Classes and Parameterless
+ *    Methods," on page 51 so that it doesn't turn negative at Int.MaxValue.
  */
 object Exercise01 extends App {
   class Counter {

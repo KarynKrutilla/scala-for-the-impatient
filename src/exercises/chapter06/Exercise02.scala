@@ -1,7 +1,7 @@
 package exercises.chapter06
 
 /**
- * 2. The preceding problem wasn’t very object-oriented. Provide a general superclass
+ * 2. The preceding problem wasn't very object-oriented. Provide a general superclass
  *    UnitConversion and define objects InchesToCentimeters, GallonsToLiters, and
  *    MilesToKilometers that extend it
  */

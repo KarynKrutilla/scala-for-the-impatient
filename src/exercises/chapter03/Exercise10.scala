@@ -9,7 +9,7 @@ import scala.collection.mutable.Buffer
  *     val flavors = SystemFlavorMap.getDefaultFlavorMap().asInstanceOf[SystemFlavorMap]
  *     Then call the getNativesForFlavor method with parameter DataFlavor.imageFlavor
  *     and get the return value as a Scala buffer. 
- *     (Why this obscure class? It’s hard to find uses of java.util.List in the standard Java library.)
+ *     (Why this obscure class? It's hard to find uses of java.util.List in the standard Java library.)
  */
 object Exercise10 {
   def main(args:Array[String]) { 

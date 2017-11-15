@@ -4,7 +4,7 @@ package exercises.chapter07
  * 3. Write a package random with functions nextInt(): Int, nextDouble(): Double, and
  * 	  setSeed(seed: Int): Unit. To generate random numbers, use the linear
  * 	  congruential generator
- * 			next = previous × a + b mod 2n,
+ * 			next = previous x a + b mod 2n,
  * 		where a = 1664525, b = 1013904223, and n = 32
  */
 object Exercise03 extends App {

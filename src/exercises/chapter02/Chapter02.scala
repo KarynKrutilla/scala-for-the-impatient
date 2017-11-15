@@ -5,7 +5,7 @@ import scala.math.pow
 object Chapter02 {
   
   def main(args: Array[String]) {
-    // 1. The signum of a number is 1 if the number is positive, –1 if it is negative, and
+    // 1. The signum of a number is 1 if the number is positive, -1 if it is negative, and
     //    0 if it is zero. Write a function that computes this value.
 
     def signum(num: Int): Int = {
@@ -65,12 +65,12 @@ object Chapter02 {
     /**
      * Write a function that computes x^n , where n is an integer.
      * Use the following recursive definition:
-     * • x^n = y^2 if n is even and positive, where y = x^n / 2 .
-     * • x^n = x· x^n – 1 if n is odd and positive.
-     * • x^0 = 1.
-     * • x^n = 1 / x^n if n is negative.
+     * ï¿½ x^n = y^2 if n is even and positive, where y = x^n / 2 .
+     * ï¿½ x^n = xï¿½ x^n ï¿½ 1 if n is odd and positive.
+     * ï¿½ x^0 = 1.
+     * ï¿½ x^n = 1 / x^n if n is negative.
      *
-     * Don’t use a return statement */
+     * Donï¿½t use a return statement */
     import math.pow
     def compute(x:Double, n: Int) = {
       if(n > 0 && n%2 == 0) pow( pow(x, n/2) , 2)
