@@ -11,7 +11,7 @@ import scala.collection.mutable.Map
 object Exercise05 extends App {
   
   // read file
-  val words = new Scanner(new File("chapter04Words.txt")).useDelimiter("\\W+")
+  val words = new Scanner(new File("src/exercises/chapter04/chapter04Words.txt")).useDelimiter("\\W+")
 
   // init new TreeMap
   val tree = new TreeMap[String, Int]()

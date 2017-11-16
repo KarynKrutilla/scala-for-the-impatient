@@ -15,7 +15,7 @@ object Exercise02 extends App {
   // init wordCount
   val wordCount = new scala.collection.mutable.HashMap[String, Int]
   // get String from file
-  val source = Source.fromFile("chapter04Words.txt", "UTF-8")
+  val source = Source.fromFile("src/exercises/chapter04/chapter04Words.txt", "UTF-8")
   // Split into array of words
   val words = source.mkString.split("\\W+")
   // Update wordCount
