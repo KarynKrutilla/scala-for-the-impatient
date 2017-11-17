@@ -7,7 +7,7 @@ package exercises.chapter08
   *
   *       new LabeledPoint("Black Thursday", 1929, 230.07)
   */
-class Exercise05 {
+object Exercise05 extends App {
 
   abstract class Point(val x: Double, val y: Double)
 
