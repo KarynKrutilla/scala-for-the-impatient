@@ -1,6 +1,6 @@
 package exercises.chapter10
 
-import java.io.{BufferedInputStream, FileInputStream, InputStream}
+import java.io.{FileInputStream, InputStream}
 
 /**
   * Implement a class IterableInputStream that extends java.io.InputStream with the trait Iterable[Byte]
