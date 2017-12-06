@@ -17,7 +17,7 @@ object Exercise09 extends App {
   }
 
   // Test
-  val input = new FileInputStream("src/exercises/chapter10/exercise09.txt") with Buffering
+  val input = new FileInputStream("src/exercises/chapter10/chapter10.txt") with Buffering
   val arr = new Array[Byte](23)
 
   input.read(arr)
