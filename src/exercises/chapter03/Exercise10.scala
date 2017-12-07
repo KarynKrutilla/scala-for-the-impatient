@@ -21,5 +21,7 @@ object Exercise10 {
     // Print
     for(i <- 0 until buffer.size) println(buffer(i))
 
+    assert(buffer == Buffer("PNG","JFIF","TIFF"))
+
   }
 }

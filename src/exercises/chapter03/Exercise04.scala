@@ -1,7 +1,5 @@
 package exercises.chapter03
 
-import scala.collection.mutable.ArrayBuffer
-
 /**
  * 4. Given an array of integers, produce a new array that contains all positive
  *    values of the original array, in their original order, followed by all values that

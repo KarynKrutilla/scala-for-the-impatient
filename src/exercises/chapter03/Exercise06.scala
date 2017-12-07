@@ -21,8 +21,13 @@ object Exercise06 {
     val arrBuff = reverseArrayBuffer(ArrayBuffer(1,2,3,4,5))
     
     println("arr:")
-    for(i <- 0 to arr.size-1) println(arr(i))
+    for(i <- 0 to arr.size-1) print(arr(i))
+    assert(arr.deep == Array(5,4,3,2,1).deep)
+
+    println()
+
     println("arrBuff:")
-    for(i <- 0 to arrBuff.size-1) println(arrBuff(i))
+    for(i <- 0 to arrBuff.size-1) print(arrBuff(i))
+    assert(arrBuff == ArrayBuffer(5,4,3,2,1))
   }
 }

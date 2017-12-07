@@ -11,6 +11,6 @@ object Exercise05 {
     
     // Test
     val arr = Array(10,20,30,40,50)
-    println(findAverage(arr)) // 30
+    assert(findAverage(arr) == 30)
   }
 }

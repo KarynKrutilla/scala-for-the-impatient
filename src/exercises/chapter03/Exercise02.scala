@@ -22,7 +22,9 @@ object Exercise02 {
     // Test
     val arr = Array(1, 2, 3, 4, 5)
     updateArray(arr)
-    for(i <- 0 to arr.size-1) println(arr(i))
-    
+    for(i <- 0 to arr.size-1) print(arr(i))
+
+    assert(arr.deep == Array(2, 1, 4, 3, 5).deep)
+
   }
 }

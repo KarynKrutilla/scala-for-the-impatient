@@ -12,6 +12,7 @@ object Exercise07 {
     
     // Test
     val noDuplicateArray = removeDuplicates(Array(1,1,3,2,2,2,3,1,4,2))
-    for(i <- 0 to noDuplicateArray.size-1) println(noDuplicateArray(i))
+    for(i <- 0 to noDuplicateArray.size-1) print(noDuplicateArray(i))
+    assert(noDuplicateArray.deep == Array(1,3,2,4).deep)
   }
 }

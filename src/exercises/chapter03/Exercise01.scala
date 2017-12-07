@@ -19,6 +19,7 @@ object Exercise01{
     val createdArray = createArray(size)
     for(i <- 0 to size-1) println(createdArray(i))
 
+    createdArray.foreach(f => assert(f >= 0 && f < 15))
   }
  
 
